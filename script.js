@@ -10,10 +10,10 @@ const person = {
 const team = players;
 
 // Create a copy of the players array
-const team1 = [players];
+const team1 = [...players];
 
 // Create a copy of the person object
-const cap1 = {person};
+const cap1 = {...person};
 
 window.players = players;
 window.person = person;
